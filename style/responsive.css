@@ -57,6 +57,16 @@
     }
 
     /* product responsive end hare */
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img{
+        width: 100%;
+    }
+    .discount-text{
+        width: 100%;
+        padding: 20px;
+    }
 }
 
 @media screen and (min-width:567px) and (max-width:992px) {

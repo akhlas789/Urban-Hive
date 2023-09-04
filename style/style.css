@@ -118,19 +118,21 @@ nav {
     font-size: 20px;
     border-radius: 5px;
 }
+
 /* banner section end hare */
 
 /* products section start hare */
-.grid-container{
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     max-width: 1300px;
     margin: 50px auto 10px;
     min-height: 400px;
-   
+
 }
-.single-product{
+
+.single-product {
     width: 300px;
     background-color: rgba(171, 177, 183, 0.474);
     border: 10px;
@@ -138,27 +140,86 @@ nav {
     border-radius: 8px;
     box-shadow: 2px 2px 6px black;
 }
-.single-product img{
+
+.single-product img {
     width: 70%;
     display: block;
     margin: 0 auto;
 }
-.product-icone-name-container{
+
+.product-icone-name-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.product-icone{
+
+.product-icone {
     font-size: 20px;
 }
-.product-icone-name-container span{
+
+.product-icone-name-container span {
     padding: 8px;
     background-color: #9376e0;
     border-radius: 50%;
     margin-left: 5px;
     color: aliceblue;
 }
-.single-product p{
+
+.single-product p {
     margin-top: 15px;
 }
+
 /* products section end hare */
+
+/* discount container start hare */
+.discount-section {
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 20px 0;
+}
+
+.discount-container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.discount-img {
+    width: 50%;
+    position: relative;
+
+
+}
+
+.discount-img img {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount-text {
+    width: 50%;
+}
+
+.discount-number {
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 63%;
+
+}
+.discount-number{
+    background-color: yellow;
+}
+
+/* discount container end hare */
