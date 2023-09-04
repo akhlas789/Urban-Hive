@@ -223,3 +223,37 @@ nav {
 }
 
 /* discount container end hare */
+
+.revier-container{
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.single-review{
+    flex-basis: 300px;
+    background-color: #e893cf;
+    border-radius: 10px;
+    padding: 10px;
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+.top-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 200px;
+    background-color: #9376e0;
+    margin-bottom: 50px;
+}
