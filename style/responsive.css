@@ -1,0 +1,31 @@
+@media screen and (max-width:566px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item-container a {
+        margin-top: 20px;
+    }
+
+    .nav-item-container .login-btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* nav responsive end hare */
+}
+
+@media screen and (min-width:567px) and (max-width:992px) {
+    .logo-container {
+        margin-left: 40px;
+    }
+
+    .nav-item-container {
+        margin-right: 40px;
+    }
+}
